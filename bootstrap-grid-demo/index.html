@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <style>
+      .one-third {
+        width: 33%;
+        height: 5rem;
+        background-color: gray;
+        display: inline-block;
+      }
+      .col-lg-4 {
+        background-color: gray;
+        height: 5rem;
+        border: 0.1rem solid white;
+      }
+      .complete-grid {
+        background-color: gray;
+        height: 5rem;
+        border: 0.1rem solid white;
+      }
+      @media (max-width: 992px) {
+        /* up to 992px, div should take up the whole screen*/
+        .one-third {
+          width: 100%;
+        }
+      }
+    </style>
+    <title>Bootstrap Layout Practice</title>
+  </head>
+  <body>
+    <!-- https://getbootstrap.com/docs/4.1/layout/overview/ -->
+
+    <!-- Responsive Columns Without Bootstrap-->
+    <div class="one-third"></div>
+    <div class="one-third"></div>
+    <div class="one-third"></div>
+
+    <!-- Container Fluid Columns With Bootstrap-->
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-4"></div>
+        <div class="col-lg-4"></div>
+        <div class="col-lg-4"></div>
+      </div>
+    </div>
+    <!-- Container Columns With Bootstrap-->
+    <div class="container py-5">
+      <div class="row">
+        <div class="col-lg-4"></div>
+        <div class="col-lg-4"></div>
+        <div class="col-lg-4"></div>
+      </div>
+    </div>
+
+    <!-- Container Fluid Complete Grid Layout-->
+    <div class="container-fluid py-5">
+      <div class="row">
+        <div class="complete-grid col-sm-6 col-md-4 col-lg-2 col-xl-1"></div>
+        <div class="complete-grid col-sm-6 col-md-4 col-lg-2 col-xl-1"></div>
+        <div class="complete-grid col-sm-6 col-md-4 col-lg-2 col-xl-1"></div>
+        <div class="complete-grid col-sm-6 col-md-4 col-lg-2 col-xl-1"></div>
+        <div class="complete-grid col-sm-6 col-md-4 col-lg-2 col-xl-1"></div>
+        <div class="complete-grid col-sm-6 col-md-4 col-lg-2 col-xl-1"></div>
+        <div class="complete-grid col-sm-6 col-md-4 col-lg-2 col-xl-1"></div>
+        <div class="complete-grid col-sm-6 col-md-4 col-lg-2 col-xl-1"></div>
+        <div class="complete-grid col-sm-6 col-md-4 col-lg-2 col-xl-1"></div>
+        <div class="complete-grid col-sm-6 col-md-4 col-lg-2 col-xl-1"></div>
+        <div class="complete-grid col-sm-6 col-md-4 col-lg-2 col-xl-1"></div>
+        <div class="complete-grid col-sm-6 col-md-4 col-lg-2 col-xl-1"></div>
+      </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
